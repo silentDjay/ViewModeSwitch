@@ -1,0 +1,98 @@
+body {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  color: #47a3da;
+}
+
+/*Styling for the <section> with the outer border*/
+
+#outerSection {
+  width: 84%;
+  margin-left: 8%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 3px solid #47a3da;
+}
+
+header {
+  text-align: right;
+  margin: 0 1em 0 1em;
+  padding: 1.5em .4em 1.5em .4em;
+  border-bottom: 3px solid #47a3da;
+}
+
+/*Styling for the left display icon*/
+
+#blockDisplay {
+  margin-right: .4em;
+  color: #47a3da;
+}
+
+/*Styling for the right display icon*/
+
+#listDisplay {
+}
+
+/*Styling for the item containers*/
+
+.individualItems {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  margin: 2.5em 0 2.5em 0;
+}
+
+/*Styling for ALL icons, including those in the header*/
+
+.fa {
+  color: #d0d0d0;
+}
+
+/*Styling for the item name containers*/
+
+.itemName {
+  display: block;
+  margin-top: .5em;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+/*Styling for all item prices*/
+
+.itemPrice{
+  font-size: 1.8em;
+  display: block;
+  color: #d0d0d0;
+  line-height: 2;
+}
+/*Styling for all item descriptions*/
+
+.itemDescription {
+  display: block;
+}
+
+/*Styling for all add to cart button containers*/
+
+.addToCartButtons {
+  display: block;
+  margin-top: 2em;
+}
+
+/*Styling for all buttons*/
+
+button {
+  text-align: center;
+  font-weight: 500;
+  font-size: .9em;
+  padding: .7em 1.5em .7em 1.5em;
+  color: #fff;
+  background-color: #47a3da;;
+  border-style: none;
+  border-radius: .2em;
+}
+
+/*Styling for icons within Add to cart buttons*/
+
+.fa-plus-circle {
+  color: #fff;
+}
