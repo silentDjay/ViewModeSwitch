@@ -27,9 +27,10 @@ header {
   color: #47a3da;
 }
 
-/*Styling for the right display icon*/
+/*Styling for hover on the right display icon*/
 
-#listDisplay {
+#listDisplay:hover {
+  color: #47a3da;
 }
 
 /*Styling for the item containers*/

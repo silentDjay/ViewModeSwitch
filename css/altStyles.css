@@ -26,6 +26,12 @@ header {
   margin-right: .4em;
 }
 
+/*Styling for hover on block display icon*/
+
+#blockDisplay:hover {
+  color: #47a3da;
+}
+
 /*Styling for the right display icon*/
 
 #listDisplay {
