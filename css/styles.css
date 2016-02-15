@@ -69,6 +69,7 @@ header {
 
 .itemDescription {
   display: block;
+  padding: 0 1em 0 1em;
 }
 
 /*Styling for all add to cart button containers*/
@@ -89,6 +90,7 @@ button {
   background-color: #47a3da;;
   border-style: none;
   border-radius: .2em;
+  outline: none;
 }
 
 /*Styling for icons within Add to cart buttons*/

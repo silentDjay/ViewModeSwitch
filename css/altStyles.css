@@ -1,0 +1,112 @@
+body {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  color: #47a3da;
+}
+
+/*Styling for the <section> with the outer border*/
+
+#outerSection {
+  width: 84%;
+  margin-left: 8%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 3px solid #47a3da;
+}
+
+header {
+  text-align: right;
+  margin: 0 1em 0 1em;
+  padding: 1.5em .4em 1.5em .4em;
+  border-bottom: 3px solid #47a3da;
+}
+
+/*Styling for the left display icon*/
+
+#blockDisplay {
+  margin-right: .4em;
+}
+
+/*Styling for the right display icon*/
+
+#listDisplay {
+  color: #47a3da;
+}
+
+/*Styling for the item containers*/
+
+.individualItems {
+  width: 97%;
+  display: inline-block;
+  padding: 1em;
+}
+
+/*Styling for ALL icons, including those in the header*/
+
+.fa {
+  color: #d0d0d0;
+}
+
+/*Styling for the item logos*/
+
+.itemLogo {
+  width: 15%;
+  text-align: center;
+}
+
+/*Styling for the item name containers*/
+
+.itemName {
+  display: inline-block;
+  vertical-align: top; /*vertical-align: middle does NOT have any effect here*/
+  margin-top: 1.2em;
+  width: 20%;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/*Styling for all item prices*/
+
+.itemPrice{
+  font-size: 1.5em;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1.2em;
+  color: #d0d0d0;
+  width: 15%;
+}
+/*Styling for all item descriptions*/
+
+.itemDescription {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1.5em;
+  width: 20em;
+}
+
+/*Styling for all add to cart button containers*/
+
+.addToCartButtons {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1.4em;
+}
+
+/*Styling for all buttons*/
+
+button {
+  text-align: center;
+  font-weight: 500;
+  font-size: .9em;
+  padding: .7em 1.5em .7em 1.5em;
+  color: #fff;
+  background-color: #47a3da;;
+  border-style: none;
+  border-radius: .2em;
+  outline: none;
+}
+
+/*Styling for icons within Add to cart buttons*/
+
+.fa-plus-circle {
+  color: #fff;
+}
